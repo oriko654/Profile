@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(146, 160, 165);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    background-color: white
+}
+
+h2 {
+    color: darkgreen;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: center;
+    text-decoration-color: black;
+
+}
+
+a {
+    color: rgb(138, 190, 95);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+nav {
+    text-align: center;
+    overflow: hidden;
+    background: #48484d;
+    gap: 20px;
+    padding: 20px;
+
+
+}
+
+.authentication {
+    background: rgb(156, 88, 88);
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    padding: 2px;
+    text-align: center;
+    background: rgb(101, 173, 167);
+    color: white;
+}
+
+.projects {
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+
+    width: 50px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.where {
+    background-color: rgb(93, 107, 107);
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(148, 54, 54, 0.1);
+}
+
+.social-media i {
+    text-align: center;
+    margin-top: 20px;
+    display: flexbox;
+    justify-content: center;
+    left: 10px;
+    font-size: 30px;
+    font-size: 24px;
+    color: blue;
+}
+
+header {
+    background-color: #2310ce;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: url();
+}
+
+image {
+    width: 35%;
+    height: 35%;
+}
